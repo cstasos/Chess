@@ -56,7 +56,7 @@ char *Get_Fname(int pawn){
 	}else if(pawn == wQ){
 		return("White Queen");
 	}else if(pawn == wK){
-		return("White Kink");
+		return("White King");
 	}else if(pawn == wP){
 		return("White Pawm");
 	}else if(pawn == bR){
@@ -68,7 +68,7 @@ char *Get_Fname(int pawn){
 	}else if(pawn == bQ){
 		return("Black Queen");
 	}else if(pawn == bK){
-		return("Black Kink");
+		return("Black King");
 	}else if(pawn == bP){
 		return("Black Pawm");
 	}else{
